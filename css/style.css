@@ -54,6 +54,7 @@ h1 {
 
 h2 {
     font-size: 2.8vw;
+    line-height: 1.2em;
 }
 
 h3 {
@@ -295,6 +296,10 @@ p.leftside-text__line::before {
     max-width: 60%;
 }
 
+.benefits-list__item::marker {
+    color: var(--main-blue);
+}
+
 .apigenin-benefits {
     text-align: right;
 }
@@ -309,6 +314,7 @@ p.leftside-text__line::before {
 
 .body-benefits h2 {
     margin-bottom: 2vw;
+    line-height: 1.3em;
 }
 
 .body-benefits h3 {
@@ -498,6 +504,7 @@ p.leftside-text__line::before {
 
     h2 {
         font-size: 6vw;
+        line-height: 1.3em;
     }
 
     h3 {
@@ -654,7 +661,7 @@ p.leftside-text__line::before {
     .cellular-aging .to-dna-line.first::before {
         width: 1px;
         height: 48vw;
-        left: 12%;
+        left: 8%;
         margin-top: 3px;
     }
 
@@ -784,6 +791,7 @@ p.leftside-text__line::before {
 
     .drd-creator .rightside {
         text-align: center;
+        padding-bottom: 8vw;
     }
 
     .drd-creator .rightside p {
