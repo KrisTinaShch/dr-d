@@ -443,7 +443,7 @@ p.leftside-text__line::before {
 
 @media (max-width: 768px) {
     p {
-        font-size: 1.3vw;
+        font-size: 10px;
     }
 
     .container {
@@ -451,7 +451,7 @@ p.leftside-text__line::before {
     }
 
     .hero-section .hero-section__text .hero-section__logo {
-        margin-bottom: 2vw;
+        margin-bottom: 15px;
     }
 
     .bullets-list__container .bullets-list__item span::after {
@@ -474,7 +474,7 @@ p.leftside-text__line::before {
 
     .benefits-list__item {
         list-style: disc;
-        margin-bottom: 1.5vw;
+        margin-bottom: 12px;
         max-width: 100%;
     }
 
@@ -488,8 +488,8 @@ p.leftside-text__line::before {
     }
 
     .what-you-get .you-get__text p {
-        padding: 5px 2vw;
-        margin: 1.5vw 0;
+        padding: 5px 10px;
+        margin: 8px 0;
         max-width: 90%;
     }
 
@@ -498,22 +498,22 @@ p.leftside-text__line::before {
 
 @media (max-width: 550px) {
     h1 {
-        font-size: 7vw;
+        font-size: 25px;
         margin-top: 80%;
         text-align: center;
     }
 
     h2 {
-        font-size: 6vw;
+        font-size: 23px;
         line-height: 1.3em;
     }
 
     h3 {
-        font-size: 6vw;
+        font-size: 22px;
     }
 
     p {
-        font-size: 3.5vw;
+        font-size: 13px;
     }
 
     .container {
@@ -541,21 +541,21 @@ p.leftside-text__line::before {
     }
 
     .hero-section .hero-section__text .hero-section__logo {
-        margin-bottom: 4vw;
-        margin-top: 2vh;
-        max-width: 28vw;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        max-width: 105px;
     }
 
     section.effect-bullets {
-        padding: 9vw 0 15px 0;
+        padding: 30px 0 15px 0;
     }
 
     .effect-bullets h2 {
-        margin-top: 10vw;
+        margin-top: 35px;
     }
 
     .effect-bullets .effect-bullets__arrow {
-        margin-top: 5vw;
+        margin-top: 15px;
     }
 
     .effect-bullets .effect-bullets__arrow img {
@@ -563,20 +563,20 @@ p.leftside-text__line::before {
     }
 
     .bullets-list__container {
-        padding: 0vw 1vw;
-        margin-top: 5vw;
+        padding: 0 3px;
+        margin-top: 15px;
     }
 
     .bullets-list__container .bullets-list__item span {
-        width: 6.5vw;
-        height: 6.5vw;
+        width: 25px;
+        height: 25px;
     }
 
     .bullets-list__container .bullets-list__item span::after {
         content: "x";
         color: #fff;
         font-weight: 900;
-        font-size: 5vw;
+        font-size: 19px;
         margin-top: -2px;
     }
 
@@ -607,12 +607,12 @@ p.leftside-text__line::before {
     }
 
     .cellular-aging .cellular-aging__benefits span::before {
-        width: 8vw;
-        height: 8vw;
+        width: 30px;
+        height: 30px;
     }
 
     .cellular-aging .aging-benefits__item p {
-        font-size: 3.5vw;
+        font-size: 13px;
         margin-bottom: 0em;
     }
 
@@ -623,7 +623,7 @@ p.leftside-text__line::before {
 
     .aging-section__text h2 {
         text-align: center;
-        margin-top: 6vw;
+        margin-top: 25px;
     }
 
     p.to-dna-line.first {
@@ -653,22 +653,23 @@ p.leftside-text__line::before {
         position: absolute;
         top: 93%;
         left: 50%;
-        padding: 2.5vw 7vw;
-        font-size: 6.5vw;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 23px;
         transform: translate(-50%, 50%);
         width: 70%;
     }
 
     .cellular-aging .to-dna-line.first::before {
         width: 1px;
-        height: 48vw;
+        height: 180px;
         left: 8%;
         margin-top: 3px;
     }
 
     .cellular-aging .to-dna-line.second::before {
         width: 1px;
-        height: 28vw;
+        height: 100px;
         left: 16%;
         margin-top: -42%;
     }
@@ -692,7 +693,7 @@ p.leftside-text__line::before {
     }
 
     .apigenin-benefits {
-        padding: 10vw 0;
+        padding: 30px 0;
         background: url(../images/Banners/DR-D-Circle-Apigenin-m.webp) left 73% / 85% no-repeat;
     }
 
@@ -707,7 +708,7 @@ p.leftside-text__line::before {
     }
 
     .max-benefits {
-        padding: 10vw 0;
+        padding: 30px 0;
         background: url(../images/Banners/DR-D-Capsule-m.webp) right 73% / 85% no-repeat;
     }
 
@@ -734,8 +735,8 @@ p.leftside-text__line::before {
     }
 
     .body-benefits .rightside div::before {
-        width: 2vw;
-        height: 2vw;
+        width: 8px;
+        height: 8px;
         border: 1px solid var(--main-blue);
         border-radius: 50%;
         z-index: 1;
@@ -751,8 +752,8 @@ p.leftside-text__line::before {
     }
 
     .what-you-get .you-get__text p {
-        padding: 5px 2vw;
-        margin: 1.5vw 0;
+        padding: 5px 8px;
+        margin: 6px 0;
         max-width: 100%;
         border-radius: 10px 0 0 10px;
         text-align: left;
@@ -765,7 +766,7 @@ p.leftside-text__line::before {
         left: 0%;
         transform: translate(-40%, 50%);
         text-align: center;
-        font-size: 8vw;
+        font-size: 25px;
     }
 
     .drd-creator {
@@ -777,9 +778,9 @@ p.leftside-text__line::before {
         width: 100%;
         background: #000;
         color: #fff;
-        padding: 5vw 0;
+        padding: 20px 0;
         text-transform: uppercase;
-        font-size: 6vw;
+        font-size: 22px;
     }
 
     .drd-creator .drd-creator-title {
@@ -787,16 +788,16 @@ p.leftside-text__line::before {
     }
 
     .drd-creator .drd-creator-title h2 {
-        margin-top: 10vw;
+        margin-top: 35px;
     }
 
     .drd-creator .rightside {
         text-align: center;
-        padding-bottom: 8vw;
+        padding-bottom: 30px;
     }
 
     .drd-creator .rightside p {
-        margin-bottom: 4vw;
+        margin-bottom: 14px;
     }
 
     .drd-creator .container {
@@ -810,20 +811,20 @@ p.leftside-text__line::before {
         max-width: 100%;
         align-items: center;
         justify-content: space-around;
-        padding: 0 0 1vw 0;
+        padding: 0 0 3px 0;
     }
 
     .cta-banner .discover-button {
-        font-size: 3.5vw;
+        font-size: 14px;
     }
 
     .cta-banner img {
-        margin-top: -7vw;
+        margin-top: -25px;
     }
 
     .cta-banner h2 {
-        font-size: 4vw;
-        margin-bottom: 5vw;
+        font-size: 15px;
+        margin-bottom: 20px;
         line-height: 1.3em;
     }
 
@@ -835,7 +836,7 @@ p.leftside-text__line::before {
     }
 
     .last-cta-banner .last-cta__text h2 {
-        font-size: 5vw;
+        font-size: 18px;
         text-align: left;
     }
 
